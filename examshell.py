@@ -183,8 +183,8 @@ def print_grade_report(ex_name, results, passed, total):
         status = c(C.GREEN, "  ✔ OK  ") if ok else c(C.RED, "  ✘ KO  ")
         arg_str = ", ".join(repr(a) for a in args)
         call    = f"{fn}({arg_str})"
-        if len(call) > 45:
-            call = call[:42] + "..."
+        if len(call) > 70:
+            call = call[:69] + "..."
         if ok:
             print(f"{status}{c(C.GRAY, call)}")
         else:

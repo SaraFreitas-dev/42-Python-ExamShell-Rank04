@@ -1,5 +1,5 @@
-def array_rotation_detector(arr1: list, arr2: list) -> bool:
-    """
+"""
+    EXERCISE:
     Function that takes two lists (arrays) as parameters and
     determines if the second list is a rotation of the first list (left or right).
     
@@ -9,7 +9,9 @@ def array_rotation_detector(arr1: list, arr2: list) -> bool:
     The function must return True if arr2 is a rotation of arr1, and False otherwise.
     If the arrays have different lengths, they cannot be rotations of each other.
     Two empty arrays are considered rotations of each other.
-    """
+"""
+
+def array_rotation_detector(arr1: list, arr2: list) -> bool:
     if not arr1 and not arr2:
         return True
     for i in range(len(arr1)):

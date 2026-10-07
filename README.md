@@ -196,13 +196,9 @@ This makes it easy to study specific difficulty ranges or review previously solv
 
 ---
 
-# 💡 Issues & Suggestions
-
-Found a bug, a missing edge case test, or have a suggestion? [Open an issue](https://github.com/SaraFreitas-dev/42-Python-ExamShell-Rank04/issues).
-
 ---
 
-# ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This project is an independent educational tool inspired by the 42 School exam format.
 
@@ -210,7 +206,14 @@ It is not affiliated with or endorsed by 42 School.
 
 ---
 
-<p align="center">
-  If this repository helped you prepare for the exam, consider giving it a ⭐<br>
-  Good luck and happy coding 🚀
-</p>
+## 💡 Suggestions
+
+Found a bug, a missing test case or have an idea? Feel free to [open an issue](https://github.com/SaraFreitas-dev/42-Python-ExamShell-Rank04/issues).
+
+---
+
+## ⭐ Support
+
+<h3 align="center">If this repository helped you prepare for the exam, consider giving it a star ⭐</h3>
+
+<p align="center">Good luck and happy coding 🚀</p>

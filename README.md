@@ -8,12 +8,12 @@
   <img src="https://img.shields.io/badge/42-School-000000?logo=42&logoColor=white" alt="42 School">
   <img src="https://img.shields.io/github/stars/SaraFreitas-dev/42-Python-ExamShell-Rank04?style=social" alt="Stars">
 </p>
-
+<br>
 <p align="center">
   <b>Practice the 42 Common Core Rank 04 exam in real conditions:</b><br>
   Random subjects, hidden tests, timeouts and forbidden functions, all from your terminal.
 </p>
-
+<br>
 <p align="center">
   <img src="assets/terminal_menu.png" alt="ExamShell Preview" width="400">
 </p>

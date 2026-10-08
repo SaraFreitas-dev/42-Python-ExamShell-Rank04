@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner_examshell_rank04.png" alt="ExamShell Banner" width="800">
+</p>
+
 <h1 align="center">🧠 42 Exam Rank 04 (Python) - ExamShell Simulator & Solutions</h1>
 
 <p align="center">
@@ -11,7 +15,6 @@
 </p>
 
 <p align="center">
-  <!-- Ideal: trocar por um GIF (recebe exercício → KO → corrige → OK) -->
   <img src="assets/terminal_menu.png" alt="ExamShell Preview" width="500">
 </p>
 

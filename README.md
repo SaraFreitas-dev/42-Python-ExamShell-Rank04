@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/terminal_menu.png" alt="ExamShell Preview" width="500">
+  <img src="assets/terminal_menu.png" alt="ExamShell Preview" width="400">
 </p>
 
 <p align="center">
@@ -85,7 +85,7 @@ The ExamShell is the core of this repository.
 It was built specifically to simulate the new Common Core Rank 04 experience and allows students to practice in conditions that are much closer to the real exam than simply reading solutions.
 
 <p align="center">
-  <img src="assets/terminal_example.png" alt="ExamShell Preview" width="500">
+  <img src="assets/terminal_example.png" alt="ExamShell Preview" width="400">
 </p>
 
 | Grading | Exam experience | Interface |
@@ -105,7 +105,7 @@ The workflow mirrors the real exam:
 6. Progress to the next level
 
 <p align="center">
-  <img src="assets/ko_grade.png" alt="ExamShell KO example" width="500">
+  <img src="assets/ko_grade.png" alt="ExamShell KO example" width="400">
 </p>
 
 ---

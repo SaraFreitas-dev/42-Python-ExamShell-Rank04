@@ -2,7 +2,7 @@
   <img src="assets/banner_examshell_rank04.png" alt="ExamShell Banner" width="800">
 </p>
 
-<h1 align="center">🧠 42 Exam Rank 04 (Python) - ExamShell Simulator & Solutions</h1>
+<h3 align="center">42 Exam Rank 04 (Python) - ExamShell Simulator & Solutions</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/42-School-000000?logo=42&logoColor=white" alt="42 School">

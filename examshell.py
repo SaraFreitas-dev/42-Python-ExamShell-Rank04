@@ -4,7 +4,7 @@
 ║          EXAMSHELL - Exam Rank 04 Common Core        ║
 ║                  42 School Style                     ║
 ╚══════════════════════════════════════════════════════╝
-Usage: python3 examshell_rank4.py
+Usage: python3 examshell.py
 """
 
 import os

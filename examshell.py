@@ -316,7 +316,7 @@ def run_exam(session):
                 continue
             if session.exam_over:
                 break
-            print(c(C.GRAY, f"  Unknown command: '{cmd}'  — try [Enter] to grade or 'subject'"))
+            print(c(C.GRAY, f"  Unknown command: '{cmd}'  — try [Enter] to grade, [quit] to exit or 'subject'"))
 
         if session.exam_over:
             break

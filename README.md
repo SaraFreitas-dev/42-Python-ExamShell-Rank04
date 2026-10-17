@@ -2,6 +2,9 @@
   <img src="assets/banner_examshell_rank04.png" alt="ExamShell Banner" width="800">
 </p>
 
+> ⚠️ [!WARNING]
+> At the request of the 42 Network, this repository no longer contains the real Rank 04 exam subjects or solutions. The ExamShell now uses **original practice exercises** inspired by the exam format. They are great for training, but they are **not** the actual exam questions.
+
 <h3 align="center">42 Exam Rank 04 (Python) - ExamShell Simulator & Solutions</h3>
 
 <p align="center">

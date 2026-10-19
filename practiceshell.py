@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 ╔══════════════════════════════════════════════════════╗
-║          EXAMSHELL - Exam Rank 04 Common Core        ║
-║                  42 School Style                     ║
+║        PRACTICESHELL - Rank 04 Practice              ║
+║            Python  ·  Milestone 4                    ║
 ╚══════════════════════════════════════════════════════╝
-Usage: python3 examshell.py
+Usage: python3 practiceshell.py
 """
 
 import os
@@ -12,9 +12,6 @@ import sys
 import time
 import random
 import subprocess
-import textwrap
-import difflib
-import tempfile
 from datetime import datetime
 from Exercises_dict import EXERCISES
 
@@ -73,8 +70,8 @@ def clear():
 
 def banner():
     print(c(C.CYAN, "╔" + "═"*54 + "╗"))
-    print(c(C.CYAN, "║") + c(C.BOLD + C.WHITE, "      EXAMSHELL - Exam Rank 04 Common Core          ") + c(C.CYAN, "  ║"))
-    print(c(C.CYAN, "║") + c(C.GRAY, "             42 School  ·  Python Edition             ") + c(C.CYAN, "║"))
+    print(c(C.CYAN, "║") + c(C.BOLD + C.WHITE, "PRACTICESHELL - Rank 04 Practice".center(54)) + c(C.CYAN, "║"))
+    print(c(C.CYAN, "║") + c(C.GRAY, "Python  ·  Milestone 4".center(54)) + c(C.CYAN, "║"))
     print(c(C.CYAN, "╚" + "═"*54 + "╝"))
 
 def divider(char="─", color=C.GRAY):
@@ -267,7 +264,7 @@ def run_exam(session):
         # ── inner loop for this exercise
         while True:
             try:
-                cmd = input(c(C.BOLD + C.GREEN, f"  examshell> ")).strip().lower()
+                cmd = input(c(C.BOLD + C.GREEN, f"  practiceshell> ")).strip().lower()
             except (KeyboardInterrupt, EOFError):
                 print(c(C.YELLOW, "\n\n  Use 'quit' to exit the exam."))
                 continue
@@ -355,8 +352,8 @@ def main_menu():
     clear()
     banner()
     print()
-    print(c(C.WHITE,  "  Welcome to ExamShell for Exam Rank 04 Common Core."))
-    print(c(C.GRAY,   "  This simulator replicates the 42 School exam environment."))
+    print(c(C.WHITE,  "  Welcome to the Rank 04 PracticeShell."))
+    print(c(C.GRAY,   "  Practice the Milestone 4 topics with hidden tests and automatic grading."))
     print()
     print(c(C.YELLOW, "  RULES:"))
     print(c(C.GRAY,   "   • You have 3 hours total."))

@@ -5,17 +5,31 @@
 > ⚠️ [!WARNING]
 > At the request of the 42 Network, this repository no longer contains the real Rank 04 exam subjects or solutions. The ExamShell now uses **original practice exercises** inspired by the exam format. They are great for training, but they are **not** the actual exam questions.
 
-<h3 align="center">42 Exam Rank 04 (Python) - ExamShell Simulator & Solutions</h3>
+<br>
+
+<h1 align="center">Rank 04 (Python) - Practice Shell & Solutions</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/42-School-000000?logo=42&logoColor=white" alt="42 School">
   <img src="https://img.shields.io/github/stars/SaraFreitas-dev/42-Python-ExamShell-Rank04?style=social" alt="Stars">
 </p>
 <br>
-<p align="center">
-  <b>Practice the 42 Common Core Rank 04 exam in real conditions:</b><br>
-  Random subjects, hidden tests, timeouts and forbidden functions, all from your terminal.
-</p>
+
+---
+ 
+# 💡 About
+ 
+This repository is a **growing bank of exercises** for the topics learned during Milestone 4 of the Python Common Core.
+ 
+The goal is to help you:
+ 
+- **Train** the topics you learned during the milestone
+- **Review** your doubts and find your weak points
+- **Prepare** for the exam by practicing under time and test pressure
+New exercises will be added over time. Each one focuses on a concept (two pointers, sliding windows, graphs, efficiency...) rather than on any specific exam question.
+ 
+---
+
 <br>
 <p align="center">
   <img src="assets/terminal_menu.png" alt="ExamShell Preview" width="400">

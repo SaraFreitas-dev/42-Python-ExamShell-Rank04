@@ -2,18 +2,16 @@
   <img src="assets/banner_practice_rank04.png" alt="ExamShell Banner" width="800">
 </p>
 
-> ⚠️ [!WARNING]
-> At the request of the 42 Network, this repository no longer contains the real Rank 04 exam subjects or solutions. The ExamShell now uses **original practice exercises** inspired by the exam format. They are great for training, but they are **not** the actual exam questions.
+<br>
+
+<h1 align="center">Rank 04 (Python) PracticeShell - Exercises & Solutions</h1>
 
 <br>
 
-<h1 align="center">Rank 04 (Python) - Practice Shell & Solutions</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/42-School-000000?logo=42&logoColor=white" alt="42 School">
-  <img src="https://img.shields.io/github/stars/SaraFreitas-dev/42-Python-ExamShell-Rank04?style=social" alt="Stars">
-</p>
-<br>
+> [!WARNING]
+> At the request of the 42 Network, this repository no longer contains the real Rank 04 exam subjects or solutions. The PracticeShell now uses **original  exercises**. They are great for training, but they are **not** the actual exam questions.
+
 
 ---
  
@@ -25,19 +23,20 @@ The goal is to help you:
  
 - **Train** the topics you learned during the milestone
 - **Review** your doubts and find your weak points
-- **Prepare** for the exam by practicing under time and test pressure
-New exercises will be added over time. Each one focuses on a concept (two pointers, sliding windows, graphs, efficiency...) rather than on any specific exam question.
+- **Prepare** for the exam by practicing under time and test pressure.
+
+New exercises will be added over time. Each one focuses on a concept learned during this milestone.
  
 ---
 
 <br>
 <p align="center">
-  <img src="assets/terminal_menu.png" alt="ExamShell Preview" width="400">
+  <img src="assets/terminal_menu.png" alt="PracticeShell Preview" width="400">
 </p>
 
 <p align="center">
   <a href="#-quick-start">Quick Start</a> •
-  <a href="#-main-feature-examshell-simulator">Features</a> •
+  <a href="#-main-feature-practiceshell-simulator">Features</a> •
   <a href="#️-performance-tests">Performance</a> •
   <a href="#-exam-mode">Exam Mode</a> •
   <a href="#-practice-mode">Practice Mode</a> •
@@ -46,7 +45,7 @@ New exercises will be added over time. Each one focuses on a concept (two pointe
 
 ---
 
-A Python-based **ExamShell simulator** inspired by the new 42 School Common Core Rank 04 exam, combined with a collection of organized solutions grouped by difficulty level.
+A Python-based **PracticeShell simulator** inspired by the new 42 School Common Core Rank 04 learning material, combined with a collection of organized solutions grouped by difficulty level.
 
 ---
 
@@ -59,10 +58,10 @@ git clone https://github.com/SaraFreitas-dev/42-Python-ExamShell-Rank04
 cd 42-Python-ExamShell-Rank04
 ```
 
-Run the ExamShell:
+Run the PracticeShell:
 
 ```bash
-python3 examshell.py
+python3 practiceshell.py
 ```
 
 You will be presented with the main menu:
@@ -80,7 +79,7 @@ No dependencies, no setup: just Python 3.
 
 ## 📝 Workspace
 
-When the ExamShell starts, it automatically creates an `exam_workspace` directory.
+When the PracticeShell starts, it automatically creates an `exam_workspace` directory.
 
 All exercise files should be created inside this folder. The grader will only validate solutions placed in the generated workspace.
 
@@ -88,21 +87,21 @@ Example:
 
 ```text
 exam_workspace/
-└── py_merge_sorted_lists.py
+└── py_move_zeros_end.py
 ```
 
-Simply create the requested file, implement your solution, and submit it through the ExamShell interface for automatic evaluation.
+Simply create the requested file, implement your solution, and submit it through the PracticeShell interface for automatic evaluation.
 
 ---
 
-# ⭐ Main Feature: ExamShell Simulator
+# ⭐ Main Feature: PracticeShell Simulator
 
-The ExamShell is the core of this repository.
+The PracticeShell is the core of this repository.
 
-It was built specifically to simulate the new Common Core Rank 04 experience and allows students to practice in conditions that are much closer to the real exam than simply reading solutions.
+It lets you practice each milestone topic hands-on, with hidden tests and automatic feedback, instead of just reading solutions.
 
 <p align="center">
-  <img src="assets/terminal_example.png" alt="ExamShell Preview" width="400">
+  <img src="assets/terminal_example.png" alt="PracticeShell Preview" width="400">
 </p>
 
 | Grading | Exam experience | Interface |
@@ -112,7 +111,7 @@ It was built specifically to simulate the new Common Core Rank 04 experience and
 | Performance tests with timeout | Exam & practice modes | Time tracking |
 | Forbidden function rules | Rank progression logic | Pure Python |
 
-The workflow mirrors the real exam:
+The workflow:
 
 1. Receive a subject
 2. Create the requested Python file
@@ -122,19 +121,20 @@ The workflow mirrors the real exam:
 6. Progress to the next level
 
 <p align="center">
-  <img src="assets/ko_grade.png" alt="ExamShell KO example" width="400">
+  <img src="assets/ko_grade.png" alt="PracticeShell KO example" width="400">
 </p>
 
 ---
 
 # ⏱️ Performance Tests
 
-Rank 04 subjects often require solutions that are not only correct, but also efficient.
+Many exercises require solutions that are not only correct, but also efficient.
 
 Some exercises include large hidden inputs. If your solution takes too long, the test is marked as `[TIMEOUT]`, even if the result would eventually be correct:
 
 ```text
-✘ KO  merge_sorted_lists([[0, 1], [2, 3], [4, 5], ...
+✘ KO  count_pairs_sum([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15...
+        expected: 5000
         got     : '[TIMEOUT]'
 ```
 
@@ -156,7 +156,6 @@ The simulator will:
 - Increase difficulty after each successful exercise
 - Track your score
 - Simulate a 3-hour exam session
-- Recreate the Common Core Rank 04 workflow
 
 ## 🏆 Passing the Exam
 
@@ -188,7 +187,7 @@ Practice Mode allows you to:
 
 # 📚 Solutions
 
-Solutions are organized by level and include subjects and completed exercises.
+Solutions are organized by level and include the completed exercises.
 
 ```text
 solutions/
@@ -200,7 +199,7 @@ solutions/
 
 This makes it easy to study specific difficulty ranges or review previously solved exercises.
 
-> ⚠️ Try each exercise in the ExamShell first. Reading solutions before attempting them is the fastest way to fail the real exam.
+> ⚠️ Try each exercise in the PracticeShell first. Reading solutions before attempting them will not show you where your weak points are.
 
 ---
 
@@ -208,7 +207,7 @@ This makes it easy to study specific difficulty ranges or review previously solv
 
 - Lists and nested lists
 - Two-pointer techniques
-- Merging sorted sequences
+- Sorted sequences and intervals
 - Algorithmic efficiency and time complexity
 - Implementing algorithms without forbidden built-ins (`sorted()`, `.sort()`, `heapq`)
 - Edge case handling
@@ -216,13 +215,10 @@ This makes it easy to study specific difficulty ranges or review previously solv
 
 ---
 
----
-
 ## ⚠️ Disclaimer
 
-This project is an independent educational tool inspired by the 42 School exam format.
-
-It is not affiliated with or endorsed by 42 School.
+This project is an independent educational tool. 
+It is not affiliated with or endorsed by 42 School, and it does not contain any official 42 exam content.
 
 ---
 

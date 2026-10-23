@@ -1,15 +1,19 @@
 def count_pairs_sum(nums: list[int], target: int) -> int:
     counter: int = 0
-    
+
     if len(nums) < 2:
         return 0
-    for i in range(len(nums) - 1):
-        for j in range((i + 1), len(nums)):
-            if (nums[i] + nums[j]) == target:
-                counter += 1
-                break
-            elif (nums[i] + nums[j]) > target:
-                break
+    i: int = 0
+    j: int = len(nums) - 1
+    while i < j:
+        if (nums[i] + nums[j]) == target:
+            counter += 1
+            i += 1
+            j -= 1
+        elif (nums[i] + nums[j]) > target:
+            j -= 1
+        else:
+            i += 1
     return counter
     
 if __name__ == "__main__":

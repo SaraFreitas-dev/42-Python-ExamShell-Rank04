@@ -146,7 +146,7 @@ The function should:
 - Return the list with all zeros at the end
 - Keep the non-zero elements in the same order they had in the input
 - Handle lists with no zeros, only zeros, or no elements
-- Maintain optimal efficiency for large inputs
+- Try to keep your solution efficient
 
 --------------------------------------------------------------------------------
 
@@ -193,7 +193,7 @@ The function should:
 - Return a NEW list where every value appears only once
 - Keep the result in ascending order
 - Handle empty lists and lists with a single element
-- Maintain optimal efficiency for large inputs
+- Try to keep your solution efficient
 
 Rules:
 - The input list is guaranteed to be sorted in ascending order
@@ -249,6 +249,7 @@ The function should:
 - Return the number of pairs whose sum is equal to the target
 - Return 0 if no pair is found or if the list has less than 2 elements
 - Maintain optimal efficiency for large inputs
+  (large inputs are tested: slow solutions will time out)
 
 Rules:
 - The input list is guaranteed to be sorted in ascending order
@@ -280,7 +281,7 @@ Examples:
             ([[1, 2], 3], 1),
             ([[-5, -3, -1, 1, 3, 5], 0], 3),
             ([[1, 2, 3, 4], 100], 0),
-            ([list(range(10000)), 9999], 5000),
+            ([list(range(18000)), 17999], 9000),
         ],
     },
 
@@ -305,7 +306,7 @@ The function should:
 - Return a NEW list where all overlapping intervals are merged into one
 - Return the result sorted by the start of each interval
 - Return an empty list if the input is empty
-- Maintain optimal efficiency for large inputs
+- Try to keep your solution efficient
 
 --------------------------------------------------------------------------------
 
@@ -361,7 +362,7 @@ The function should:
 - Keep the result in ascending order
 - Remove duplicates from the result
 - Handle empty lists gracefully
-- Maintain optimal efficiency for large inputs
+- Try to keep your solution efficient
 
 Edge cases to handle:
 - First list empty: return empty list
@@ -485,7 +486,7 @@ Constraints:
 - Any single character is a palindrome, so a non-empty string returns at
   least 1.
 - If the entire string is already a palindrome -> len(s).
-- Inputs can be long: your solution must be efficient.
+- Try to keep your solution efficient.
 
 --------------------------------------------------------------------------------
 
@@ -724,6 +725,7 @@ The function should:
 - Handle edge cases (empty array, k <= 0, k > array length)
 - Return empty list for invalid inputs
 - Maintain optimal efficiency for large inputs
+  (large inputs are tested: slow solutions will time out)
 
 --------------------------------------------------------------------------------
 
@@ -758,7 +760,7 @@ Examples:
             ([[1, 2, 3], 0], []),
             ([[1, 2, 3], -1], []),
             ([[-4, -2, -5, -1], 2], [-6, -7, -6]),
-            ([[1] * 20000, 5000], [5000] * 15001),
+            ([[1] * 36000, 9000], [9000] * 27001),
         ],
     },
 
@@ -782,7 +784,7 @@ The function should:
 - Return the length of the longest substring with all characters different
 - Treat uppercase and lowercase letters as different characters
 - Return 0 for an empty string
-- Maintain optimal efficiency for large inputs
+- Try to keep your solution efficient
 
 --------------------------------------------------------------------------------
 
@@ -834,7 +836,7 @@ The function should:
 - Return the starting index of that window
 - If several windows have the same smallest average, return the first one
 - Return -1 for invalid inputs (empty array, k <= 0, k > array length)
-- Maintain optimal efficiency for large inputs
+- Try to keep your solution efficient
 
 --------------------------------------------------------------------------------
 
@@ -891,7 +893,7 @@ The function should:
   most k zeros
 - Return 0 for an empty list
 - Treat a negative k as 0
-- Maintain optimal efficiency for large inputs
+- Try to keep your solution efficient
 
 --------------------------------------------------------------------------------
 

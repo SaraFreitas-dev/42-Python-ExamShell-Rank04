@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <a href="https://github.com/stars/SaraFreitas-dev/lists/practiceshell"><img src="https://raw.githubusercontent.com/SaraFreitas-dev/42_School_Badges/main/assets/practiceshell.svg" width="250" alt="PracticeShell"/></a>
+  <a href="https://github.com/stars/SaraFreitas-dev/lists/practiceshell"><img src="https://raw.githubusercontent.com/SaraFreitas-dev/42_School_Badges/main/assets/practiceshell.svg" width="200" alt="PracticeShell"/></a>
   <br>
   <sub>👉 <a href="https://github.com/SaraFreitas-dev/42_School_Badges">Get your 42 badges here</a></sub>
 </p>
